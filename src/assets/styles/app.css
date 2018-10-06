@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Sofia Pro Soft", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.bg-dark-blue {
+  background-color: #0D47A1;
+}
+.bg-consumer-blue {
+  background-color: #00B0FF;
+}
+
+.text-6xl {
+  font-size: 5rem;
+}
+
+.app {
+}
+
+.app-logo {
+  height: 3rem;
+}
+
+.app-header {
+  background-color: #00B0FF;
+  min-height: 8.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: justify;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 3.5rem 7.2%;
+}
+
+.app-link {
+  color: #61dafb;
+}
+
+.homepageHero {
+  background-color: #00B0FF;
+  color: white;
+  height: 556px;
+}
