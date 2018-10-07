@@ -15,6 +15,7 @@ import logoServiceMaster from './assets/images/logo-service-master.png';
 import logoCheckmark from './assets/images/icon-checkmark.png';
 import howWorksTall from './assets/images/how-works-tall.jpg';
 import houseCardSM from './assets/images/house-card-sm.png';
+import houseCardLG from './assets/images/house-card-lg.png';
 
 import './assets/styles/app.css';
 
@@ -174,9 +175,9 @@ class Home extends Component {
           </div>
           <div className="home-card">
             <div className="image">
-              <img src="https://via.placeholder.com/475x315" />
+              <img src={houseCardLG} />
             </div>
-            <div className="text-left">
+            <div className="text-left invisible bg-white text-black">
               <p className="">1301 Chicon St, Austin, TX 78702</p>
               <p className="">$415,000</p>
               <p>3 Bed    <span className="">|</span>   2 Bath    <span className="">|</span>   1150 Sq Ft</p>
@@ -189,25 +190,24 @@ class Home extends Component {
             You&rsquo;re in good company
           </h2>
           <div className="flex flex-row flex-wrap items-center justify-center mb-32">
-            <div className="m-4">
+            <a href="https://innovation.northwesternmutual.com/" target="_blank" className="block m-4">
               <img src={logoNorthwesternMutual} className="logos" alt="Northwestern Mutual Logo" />
-            </div>
-            <div className="m-4">
-              <img src={logoRBC} className="logos" alt="RBC Logo" />
-            </div>
-            <div className="m-4">
+            </a>
+            <a href="https://www.rbc.com" target="_blank" className="block m-4">
+              <img src={logoRBC} className="logos" alt="RBC Royal Bank Logo" />
+            </a>
+            <a href="https://liveoakvp.com/" target="_blank" className="block m-4">
+              <img src={logoLiveOak} className="logos" alt="Live Oak Venture Partners Logo" />
+            </a>
+            <a href="https://www.realogy.com/" target="_blank" className="block m-4">
               <img src={logoRealogy} className="logos" alt="Realogy Logo" />
-            </div>
-
-            <div className="m-4">
-              <img src={logoLiveOak} className="logos" alt="Northwestern Mutual Logo" />
-            </div>
-            <div className="m-4">
-              <img src={logoSilvertonPartners} className="logos" alt="Northwestern Mutual Logo" />
-            </div>
-            <div className="m-4">
+            </a>
+            <a href="https://www.silvertonpartners.com/" target="_blank" className="block m-4">
+              <img src={logoSilvertonPartners} className="logos" title="Silverton Partners" alt="Silverton Partners Logo" />
+            </a>
+            <a href="https://www.silvertonpartners.com/" target="_blank" className="block m-4">
               <img src={logoServiceMaster} className="logos" alt="Northwestern Mutual Logo" />
-            </div>
+            </a>
           </div>
         </section>
 
