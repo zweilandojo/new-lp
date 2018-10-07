@@ -74,3 +74,47 @@ code {
 .max-w-40p {
   max-width: 40px;
 }
+
+/* */
+.theOne {
+  overflow: hidden;
+}
+.load {
+    position: absolute;
+    top: -40%; left: -20%;
+    z-index: 0;
+    /*
+    top: calc(50% - 50px);
+    left: calc(50% - 50px); */
+    width: 2000px;
+    height: 2000px;
+}
+.load i {
+  background: #00B0FF;
+  position: absolute;
+  top: 0; left: 0;
+  width: 2000px;
+  height: 2000px;
+  opacity: 0;
+  border-radius: 100%;
+  animation: circle 8s ease-out infinite 0s;
+}
+.load i:nth-child(2) {
+  animation-delay: 1s;
+}
+.load i:nth-child(3) {
+  animation-delay: 1s;
+}
+
+@keyframes circle {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

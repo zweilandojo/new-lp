@@ -168,12 +168,12 @@ class Home extends Component {
           </div>
         </section>
 
-        <section className="theOne text-center bg-dark-blue text-white py-32">
-          <div className="">
+        <section className="theOne text-center bg-dark-blue text-white py-32 relative">
+          <div className="relative z-10">
             <h2 className="mb-4 text-6xl font-medium">Find "The One"</h2>
             <p className="text-3xl mb-8">Get on the MLS &amp; major search sites. All for free.</p>
           </div>
-          <div className="home-card">
+          <div className="relative home-card z-10">
             <div className="image">
               <img src={houseCardLG} />
             </div>
@@ -182,6 +182,11 @@ class Home extends Component {
               <p className="">$415,000</p>
               <p>3 Bed    <span className="">|</span>   2 Bath    <span className="">|</span>   1150 Sq Ft</p>
             </div>
+          </div>
+          <div className="load z-0">
+              <i></i>
+              <i></i>
+              <i></i>
           </div>
         </section>
 
