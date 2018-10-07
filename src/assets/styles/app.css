@@ -13,17 +13,39 @@ code {
     monospace;
 }
 
+/* Backgrounds */
 .bg-dark-blue {
   background-color: #0D47A1;
+}
+.bg-agent-blue {
+  background-color: #3366FF;
 }
 .bg-consumer-blue {
   background-color: #00B0FF;
 }
 
+/* Borders */
+.border-agent-blue {
+  border-color: #3366FF;
+}
+
+/* Text */
 .text-6xl {
+  font-size: 3.3125rem;
+}
+.text-7xl {
   font-size: 5rem;
 }
 
+/* Shadow */
+.shadow-lg {
+  /* box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
+          0 5px 15px 0 rgba(0,0,0,0.08); */
+          box-shadow: 0 3px 15px 0 rgba(0,0,0,.1),
+          0 5px 15px 0 rgba(0,0,0,0.02);
+}
+
+/*  */
 .app {
 }
 
@@ -34,20 +56,21 @@ code {
 .app-header {
   background-color: #00B0FF;
   min-height: 8.5rem;
-  display: flex;
-  flex-direction: row;
-  align-items: justify;
-  font-size: calc(10px + 2vmin);
+/*  font-size: calc(10px + 2vmin); */
   color: white;
-  padding: 3.5rem 7.2%;
+  padding: 3.5rem 7%;
 }
 
-.app-link {
-  color: #61dafb;
-}
-
+/*  */
 .homepageHero {
   background-color: #00B0FF;
   color: white;
   height: 556px;
+}
+
+.logos {
+  max-width: 172px;
+}
+.max-w-40p {
+  max-width: 40px;
 }
