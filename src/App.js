@@ -13,6 +13,9 @@ import logoLiveOak from './assets/images/logo-live-oak.png';
 import logoSilvertonPartners from './assets/images/logo-silverton-partners.png';
 import logoServiceMaster from './assets/images/logo-service-master.png';
 import logoCheckmark from './assets/images/icon-checkmark.png';
+import howWorksTall from './assets/images/how-works-tall.jpg';
+import houseCardSM from './assets/images/house-card-sm.png';
+
 import './assets/styles/app.css';
 
 class Home extends Component {
@@ -49,7 +52,7 @@ class Home extends Component {
             </div>
           </div>
           <div className="homepageHero__imageContainer">
-            <img src="https://via.placeholder.com/400x500" alt="" />
+
           </div>
         </div>
 
@@ -156,8 +159,10 @@ class Home extends Component {
               </div>
             </div>
             <div className="">
-              <img src="https://via.placeholder.com/418x632" alt="" />
-              <img src="https://via.placeholder.com/266x177" alt="" />
+              <div className="">
+                <img src={howWorksTall} width="418px" alt="How OJO Works" />
+              </div>
+              <img src={houseCardSM} width="266px" alt="OJO House" />
             </div>
           </div>
         </section>
