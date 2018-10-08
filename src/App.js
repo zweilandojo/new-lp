@@ -38,15 +38,15 @@ class Home extends Component {
 
         <div className="homepageHero">
           <div className="homepageHero__content container mx-auto">
-            <div className="homepageHero__copyContainer w-2/3 ml-16">
+            <div className="homepageHero__copyContainer w-2/3 pt-12 ml-16">
               <h1 className="homepageHero__title text-7xl font-medium mb-2">
                 Get personalized home listings
               </h1>
-              <p className="homepageHero__copy text-3xl mb-6">
+              <p className="homepageHero__copy text-3xl mb-12">
                 Meet OJO, your virtual real estate assistant.
               </p>
               <div className="homepageHero__cta">
-                <Link to="/sign-up" className="ctaPrimary inline-block bg-dark-blue text-white text-xl px-8 py-5 no-underline rounded-full shadow-lg">
+                <Link to="/sign-up" className="ctaPrimary inline-block bg-dark-blue text-white text-xl px-12 py-5 no-underline rounded-full shadow-lg">
                   Get Early Access
                 </Link>
               </div>
@@ -68,8 +68,8 @@ class Home extends Component {
             </div>
           </div>
         </section>
-        <section className="bg-white text-center pb-10">
-          <div className="container mx-auto lg:px-24 flex flex-row justify-center flex-wrap">
+        <section className="bg-white text-center">
+          <div className="container mx-auto mb-32 lg:px-24 flex flex-row justify-center flex-wrap">
             <div className="whatCan flex-1">
               <div className="mb-8">
                 <img src="https://via.placeholder.com/100x100" alt="" />
