@@ -82,6 +82,14 @@ code {
 .theOne {
   overflow: hidden;
 }
+
+.theOne-tags {
+  background: transparent url('../images/theOne-tags.png') bottom center no-repeat;
+  background-size: contain;
+  z-index: 100;
+  position: relative;
+}
+
 .load {
     position: absolute;
     top: -40%; left: -20%;
@@ -101,6 +109,7 @@ code {
   opacity: 0;
   border-radius: 100%;
   animation: circle 8s ease-out infinite 0s;
+  z-index: 0;
 }
 .load i:nth-child(2) {
   animation-delay: 1s;
