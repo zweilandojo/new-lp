@@ -61,29 +61,29 @@ class Home extends Component {
           <div className="layout">
             <div className="content">
               <div className="max-w-sm mx-auto">
-                <h2 className="mt-32 mb-24 text-6xl font-medium">
+                <h2 className="mt-32 mb-32 text-6xl font-medium">
                   What can you do with OJO?
                 </h2>
               </div>
             </div>
           </div>
         </section>
-        <section className="bg-white text-center">
-          <div className="flex flex-row justify-center flex-wrap">
-            <div className="whatCan w-48">
+        <section className="bg-white text-center pb-10">
+          <div className="container mx-auto lg:px-24 flex flex-row justify-center flex-wrap">
+            <div className="whatCan flex-1">
               <div className="mb-8">
                 <img src="https://via.placeholder.com/100x100" alt="" />
               </div>
               <div>
                 <h3 className="mb-4 text-3xl">
-                  Real estate assistant
+                  Personal real estate assistant
                 </h3>
                 <p className="text-l">
                   OJO proactively search MLs and answer any questions you have.
                 </p>
               </div>
             </div>
-            <div className="whatCan w-48">
+            <div className="whatCan flex-1">
               <div className="mb-8">
                 <img src="https://via.placeholder.com/100x100" alt="" />
               </div>
@@ -96,7 +96,7 @@ class Home extends Component {
                 </p>
               </div>
             </div>
-            <div className="whatCan w-48">
+            <div className="whatCan flex-1">
               <div className="mb-8">
                 <img src="https://via.placeholder.com/100x100" alt="" />
               </div>
@@ -109,16 +109,16 @@ class Home extends Component {
                 </p>
               </div>
             </div>
-            <div className="whatCan w-48">
+            <div className="whatCan flex-1">
               <div className="mb-8">
                 <img src="https://via.placeholder.com/100x100" alt="" />
               </div>
               <div>
                 <h3 className="mb-4 text-3xl">
-                  Fourth one
+                  Fourth one title here
                 </h3>
                 <p className="text-l">
-                  Some other thing some other thing
+                  Some other thing some other thing, a great thing.
                 </p>
               </div>
             </div>
@@ -126,44 +126,51 @@ class Home extends Component {
         </section>
 
         <section className="bg-grey-lightest">
-          <div className="container mx-auto">
-            <h2 className="mt-32 mb-24 text-6xl font-medium">
-              How it works
-            </h2>
-            <div className="">
-              <div>
-                <div className="max-w-100p">
-                  <img src={logoCheckmark} className="" alt="checkmark" />
+          <div className="container mx-auto flex">
+            <div className="flex-1">
+              <h2 className="mt-32 mb-12 ml-24 text-6xl font-medium">
+                How it works
+              </h2>
+              <div className="mb-24">
+                <div className="list-item ml-24 mb-10 flex">
+                  <div className="w-40p mr-4">
+                    <img src={logoCheckmark} className="" alt="checkmark" />
+                  </div>
+                  <div className='flex-1'>
+                    <h4 className="text-2xl font-medium mb-2">One great reason</h4>
+                    <p className="text-xl text-grey-darker leading-normal">This should be no longer than two lines for scannability.</p>
+                  </div>
                 </div>
-                <div>
-                  <h4 className="text-3xl">One great reason</h4>
-                  <p className="text-2xl text-grey-darker">This should be no longer than two lines for scannability.</p>
+                <div className="list-item ml-24 mb-10 flex">
+                  <div className="w-40p mr-4">
+                    <img src={logoCheckmark} className="" alt="checkmark" />
+                  </div>
+                  <div className='flex-1'>
+                    <h4 className="text-2xl font-medium mb-2">Two great reasons</h4>
+                    <p className="text-xl text-grey-darker leading-normal">This should be no longer than two lines for scannability purposes.</p>
+                  </div>
                 </div>
-              </div>
-              <div>
-                <div className="max-w-100p">
-                  <img src={logoCheckmark} className="" alt="checkmark" />
-                </div>
-                <div>
-                  <h4 className="text-3xl">Two great reasons</h4>
-                  <p className="text-2xl text-grey-darker">This should be no longer than two lines for scannability purposes.</p>
-                </div>
-              </div>
-              <div>
-                <div className="max-w-100p">
-                  <img src={logoCheckmark} className="" alt="checkmark" />
-                </div>
-                <div className="">
-                  <h4 className="text-3xl">Three great reasons</h4>
-                  <p className="text-2xl text-grey-darker">This should be no longer than two lines for scannability otherwise ain’t nobody read.</p>
+                <div className="list-item ml-24 mb-10 flex">
+                  <div className="w-40p mr-4">
+                    <img src={logoCheckmark} className="" alt="checkmark" />
+                  </div>
+                  <div className='flex-1'>
+                    <h4 className="text-2xl font-medium mb-2">Three great reasons</h4>
+                    <p className="text-xl text-grey-darker leading-normal">This should be no longer than two lines for scannability otherwise ain’t nobody read.</p>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="">
-              <div className="">
-                <img src={howWorksTall} width="418px" alt="How OJO Works" />
+
+            <div className="flex-1">
+              <div className="relative pb-24 mb-24">
+                <div className="z-0 mt-24">
+                  <img src={howWorksTall} width="418px" alt="How OJO Works" />
+                </div>
+                <div className="absolute z-10 pin-b pin-r mr-20">
+                  <img src={houseCardSM} width="266px" alt="OJO House" />
+                </div>
               </div>
-              <img src={houseCardSM} width="266px" alt="OJO House" />
             </div>
           </div>
         </section>

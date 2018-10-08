@@ -45,9 +45,19 @@ code {
           0 5px 15px 0 rgba(0,0,0,0.02);
 }
 
-/*  */
-.app {
+/* Width */
+.logos {
+  max-width: 172px;
 }
+.w-40p {
+  width: 40px;
+}
+.max-w-100p {
+  max-width: 100px;
+}
+
+/* App Specific */
+.app {}
 
 .app-logo {
   height: 3rem;
@@ -66,13 +76,6 @@ code {
   background-color: #00B0FF;
   color: white;
   height: 556px;
-}
-
-.logos {
-  max-width: 172px;
-}
-.max-w-40p {
-  max-width: 40px;
 }
 
 /* */
